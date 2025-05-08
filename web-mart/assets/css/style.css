@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;900&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+/* ============ Navbar ============ */
+
+nav {
+  background: linear-gradient(
+    to right,
+    #f47321,
+    #f47321,
+    #f47321,
+    #702b88,
+    #702b88
+  );
+  border-radius: 0px 0px 120px 120px !important;
+  /* height: 5.5rem; */
+}
+
+.logo {
+  width: 11.37rem;
+  height: 4rem;
+}
+
+.transparent-orange {
+  color: #f47321;
+  background: transparent;
+  font-weight: 400;
+  border: 1px solid #f47321;
+  border-radius: 14px;
+  width: 6.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.transparent-orange:hover {
+  background: #f47321;
+  color: white;
+  transition: 0.2s;
+}
+
+.search-bar {
+  width: 9.06rem !important;
+  height: 2.6rem !important;
+}
+
+.search-button {
+  width: 2.06rem !important;
+  height: 2.6rem !important;
+  background-color: #f47321;
+  border-radius: 0 10px 10px 0px;
+  color: #fff;
+  border: none;
+  margin-left: -3px;
+  z-index: 9999999999;
+}
+
+.urdu {
+  width: 2.5rem;
+  height: 2rem;
+  background: #d9d9d9;
+  font-weight: 800;
+  border-radius: 5px;
+}
+
+.orange-side {
+  width: 1.2rem !important;
+  height: 2rem !important;
+  background-color: #f47321;
+  border-radius: 0 5px 5px 0px;
+  color: #fff;
+  border: none;
+  margin-left: -3px;
+  z-index: 999;
+}
+
+/* ======= Mini Nav =======  */
+
+.other-links {
+  position: relative;
+  top: 4rem;
+  width: 628px;
+}
+
+/* <!-- =========== Carousel / Hero section =========== --> */
+
+.hero {
+  width: 100%;
+  height: 40rem;
+  background: url(../img/hero.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.big-heading {
+  color: #702b88;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 3.5rem;
+  text-transform: uppercase;
+}
+
+.sub-heading{
+  font-weight: 600;
+  color: #702b88;
+}
+.slider-text button {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.3rem;
+  font-size: 1rem;
+}
+
+.one,
+.two,
+.three {
+  line-height: 1rem;
+  margin: 2rem 0;
+}
+
+.one h3,
+.two h3,
+.three h3 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.one {
+  color: #702b88;
+}
+
+.two {
+  color: linear-gradient(to right, #702b88, #f47321);
+}
+
+.three {
+  color: #f37321;
+}
+
+.one{
+  background-color: #f47321;
+  padding: 25px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.two{
+  background-color: #702b88;
+  padding: 25px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  color: white;
+}
+.three{
+  background-color:#f47321;
+  padding: 25px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  color: black;
+}
+.card{
+  padding: 5px;
+  border-radius: 30px;
+  border: 1px solid #702b88 !important;
+  transition: 1s ease;
+  cursor: pointer;
+}
+.card:hover{
+  background-color: #702b88;
+  transform: scale(1.05);
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .flash-sales img {
+    margin: -10rem auto;
+    width: 600px;
+  }
+
+  nav {
+    padding: 2rem;
+    /* overflow: hidden; */
+    width: 100%;
+  }
+
+  nav .logo img {
+    width: 8rem;
+  }
+
+  button.navbar-toggler {
+    position: relative;
+    left: -3.5rem;
+  }
+
+  .xs-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flash-sales {
+    padding: 2rem;
+  }
+
+  .flash-sales img {
+    display: none;
+  }
+
+  .d-tab{
+    display: block!important;
+  }
+
+  .d-tab-none{
+    display: none;
+  }
+
+  .purple-outline-button, .orange-button{
+    padding: 0rem 0.3rem!important;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+  .flash-sales img {
+    display: none;
+  }
+
+  .flash-sales .big-heading {
+    font-size: 2.2rem;
+  }
+
+  .mob-none {
+    display: none;
+  }
+
+  .card {
+    width: 15rem;
+    height: 25rem;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .mob-text-center {
+    text-align: center;
+  }
+
+  .hero {
+    padding: 0% !important;
+    width: 100%;
+    height: 25rem;
+  }
+
+}
+
+@media screen and (max-width: 350px)
+{
+  .social-icon-mob{
+    padding: 0 1.5rem!important;
+  }
+} 
+
+/* =========== Big Screens =========== */
+@media screen and (min-width: 2560px) {
+  .product-page {
+    width: 105rem !important;
+    margin: auto;
+  }
+}
