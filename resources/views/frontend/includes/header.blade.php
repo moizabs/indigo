@@ -3,8 +3,8 @@
         <div class="container">
             <div class="main-header-three__wrapper-inner clearfix">
                 <div class="main-header-three__logo">
-                    <a href="{{ route('index') }}"><img src="{{ asset('/frontend/assets/images/logo-2.jpg') }} "
-                            style="width:150px; height:50px; margin-left:20px;" alt=""></a>
+                    <a href="{{ route('index') }}"><img src="{{ asset('/frontend/assets/images/indigo-logo.jpg') }} "
+                            style="width:150px;  margin-left:30px;" alt=""></a>
                 </div>
                 <div class="main-header-three__right">
                     <div class="main-header-three__top">
