@@ -571,7 +571,7 @@
             </div>
         </div>
     </section>
-    <section class="brand-one">
+    {{-- <section class="brand-one">
         <div class="container">
             <div class="thm-swiper__slider swiper-container"
                 data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
@@ -634,9 +634,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
-    <section class="counter-one">
+    <section class="counter-one mt-5">
         <div class="counter-one__bg"
             style="background-image: url(frontend/assets/images/backgrounds/counter-one-bg-img.png);"></div>
         <div class="container">

@@ -8,7 +8,7 @@
                 <img src="frontend/assets/images/shapes/subscribe-one-shape-2.png" alt="">
             </div>
             <div class="subscribe-one__shape-4 float-bob-y">
-                <img src="frontend/assets/images/shapes/subscribe-one-shape-4.png" alt="">
+                <img  src="frontend/assets/images/shapes/subscribe-one-shape-4.png" alt="">
             </div>
             <div class="subscribe-one__shape-5 zoominout">
                 <img src="frontend/assets/images/shapes/subscribe-one-shape-5.png" alt="">

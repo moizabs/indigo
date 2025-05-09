@@ -5062,6 +5062,19 @@ ul {
 .subscribe-one__shape-1 img {
   width: auto;
 }
+@media only screen and (max-width: 600px) {
+ .subscribe-one__shape-1 {
+  /* position: absolute; */
+  right: -9%;
+  top: -79px;
+  /* z-index: 2; */
+}
+
+.subscribe-one__shape-1 img {
+  width: 50px;
+  height: 50px;
+}
+}
 
 .subscribe-one__shape-2 {
   position: absolute;
@@ -5088,8 +5101,10 @@ ul {
 
 .subscribe-one__shape-4 {
   position: absolute;
-  left: -87px;
-  top: -19px;
+  /* left: -87px;
+  top: -19px; */
+  left: 50%;
+  top: 6%;
   z-index: 2;
 }
 
@@ -5324,7 +5339,7 @@ ul {
   justify-content: center;
   text-align: center;
   color: var(--ogenix-white);
-  background-color: #223d17;
+  background-color: #8a45a1;
   font-size: 14px;
   border-radius: 50%;
   overflow: hidden;
@@ -5625,7 +5640,7 @@ ul {
   position: relative;
   display: block;
   padding: 32px 0 36px;
-  background-color: #223d17;
+  background-color: #8a45a1;
   z-index: 1;
 }
 
@@ -5644,7 +5659,7 @@ ul {
 }
 
 .site-footer__bottom-text a {
-  color: #91a589;
+  color: #ffffff;
   transition: all 500ms ease;
 }
 
@@ -6919,7 +6934,7 @@ ul {
 .banner-three__middle-inner {
   position: relative;
   display: block;
-  background-color: #ffbc3b;
+  background-color: #8a45a1;
   border-radius: var(--ogenix-bdr-radius);
   padding: 42px 50px 60px;
   overflow: hidden;
@@ -7389,7 +7404,7 @@ ul {
   font-size: 18px;
   line-height: 18px;
   font-weight: 500;
-  color: #aef490;
+  color: #f47321;
 }
 
 /*--------------------------------------------------------------

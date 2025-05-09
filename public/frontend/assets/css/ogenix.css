@@ -5061,16 +5061,38 @@ ul {
 .subscribe-one__shape-1 img {
   width: auto;
 }
+@media only screen and (max-width: 600px) {
+ .subscribe-one__shape-1 {
+  /* position: absolute; */
+  right: 50%;
+  top: -10%;
+  /* z-index: 2; */
+}
 
+.subscribe-one__shape-1 img {
+  width: 100px;
+  height: 100px;
+}
+}
 .subscribe-one__shape-2 {
   position: absolute;
-  right: 463px;
+  right: 46%;
   top: -46px;
   z-index: 2;
 }
 
 .subscribe-one__shape-2 img {
   width: auto;
+}
+@media only screen and (max-width: 600px) {
+ .subscribe-one__shape-2 {
+  right: 40%;
+  top: -20px;
+}
+ .subscribe-one__shape-2 img {
+  width: 90px;
+  height: 90px;
+}
 }
 
 .subscribe-one__shape-3 {
@@ -5087,18 +5109,30 @@ ul {
 
 .subscribe-one__shape-4 {
   position: absolute;
-  right: -87px;
+  /* right: -87px; */
   top: -19px;
+  right: -10%;
   z-index: 2;
 }
 
 .subscribe-one__shape-4 img {
   width: auto;
 }
+@media only screen and (max-width: 600px) {
+  .subscribe-one__shape-4 {
+  top: 29px;
+  right: 4%;
+  z-index: 2;
+}
+ .subscribe-one__shape-4 img {
+  width: 80px;
+  height: 80px;
+}
+}
 
 .subscribe-one__shape-5 {
   position: absolute;
-  left: 465px;
+  left: 50%;
   bottom: -36px;
   z-index: 2;
 }
@@ -5323,7 +5357,7 @@ ul {
   justify-content: center;
   text-align: center;
   color: var(--ogenix-white);
-  background-color: #223d17;
+  background-color: #8a45a1;
   font-size: 14px;
   border-radius: 50%;
   overflow: hidden;
@@ -5624,7 +5658,7 @@ ul {
   position: relative;
   display: block;
   padding: 32px 0 36px;
-  background-color: #223d17;
+  background-color: #8a45a1;
   z-index: 1;
 }
 
@@ -5639,11 +5673,11 @@ ul {
   font-size: 15px;
   font-weight: 500;
   margin: 0;
-  color: black;
+  color: #ffffff;
 }
 
 .site-footer__bottom-text a {
-  color: black;
+  color: ffffff;
   transition: all 500ms ease;
 }
 
@@ -6918,7 +6952,7 @@ ul {
 .banner-three__middle-inner {
   position: relative;
   display: block;
-  background-color: #ffbc3b;
+  background-color: #8a45a1;
   border-radius: var(--ogenix-bdr-radius);
   padding: 42px 50px 60px;
   overflow: hidden;
@@ -7388,7 +7422,7 @@ ul {
   font-size: 18px;
   line-height: 18px;
   font-weight: 500;
-  color: #aef490;
+  color: #f47321;
 }
 
 /*--------------------------------------------------------------

@@ -8,8 +8,8 @@
         }
 
         .slider-wrapper .slider {
-            width: 75vw;
-            height: 55vmin;
+            width: 100%;
+            height: 350px;
             overflow: hidden;
             /* border: 3px solid #000; */
             border-radius: 10px;
@@ -23,7 +23,7 @@
 
         .slider-wrapper .slider .slider-track img {
             min-width: calc(100% + 2px);
-            object-fit: contain;
+            object-fit: fill;
         }
 
         .slider-wrapper .btn {
@@ -35,7 +35,12 @@
             .slider-wrapper .slider {
            width: 100%;
         }
-}
+         .slider-wrapper .slider .slider-track img {
+            min-width: calc(100% + 2px);
+            object-fit: contain;
+        }
+
+        }
     </style>
 
 
