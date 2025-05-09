@@ -544,7 +544,8 @@
                                 </h3>
                             </div>
                             <div class="banner-three__middle-btn-box">
-                                <a href="{{ route('frontend.products') }}" class="banner-three__middle-btn thm-btn">Shop now</a>
+                                <a href="{{ route('frontend.products') }}" class="banner-three__right-btn_2 thm-btn" 
+                                style="border: 2px solid #ffffff">Shop now</a>
                             </div>
                         </div>
                     </div>

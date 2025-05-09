@@ -39,7 +39,13 @@
             min-width: calc(100% + 2px);
             object-fit: contain;
         }
-
+        .slider-wrapper .slider {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            /* border: 3px solid #000; */
+            border-radius: 10px;
+        }
         }
     </style>
 
